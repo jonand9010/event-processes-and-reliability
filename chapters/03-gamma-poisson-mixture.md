@@ -9,13 +9,13 @@ What if every device follows a constant-rate Poisson process, but different devi
 Draw a device rate $\Lambda$ once, then keep that rate fixed for that device. Conditional on the rate and a fixed exposure $t$,
 
 $$
-N(t)\mid\Lambda=\lambda\sim\operatorname{Poisson}(\lambda t).
+N(t)\mid\Lambda=\lambda\sim\mathrm{Poisson}(\lambda t).
 $$
 
 Across devices, suppose
 
 $$
-\Lambda\sim\operatorname{Gamma}(\alpha,\beta),
+\Lambda\sim\mathrm{Gamma}(\alpha,\beta),
 $$
 
 using **shape** $\alpha>0$ and **rate** $\beta>0$, not scale:
@@ -29,7 +29,7 @@ Here $\Gamma$ is the gamma function. The rate distribution has
 
 $$
 E[\Lambda]=\frac{\alpha}{\beta},\qquad
-\operatorname{Var}(\Lambda)=\frac{\alpha}{\beta^2}.
+\mathrm{Var}(\Lambda)=\frac{\alpha}{\beta^2}.
 $$
 
 If $\Lambda$ is measured per hour, $\beta$ has units of hours and $\alpha$ is dimensionless.
@@ -59,7 +59,7 @@ Writing $\mu=\alpha t/\beta$ gives
 
 $$
 E[N(t)]=\mu,\qquad
-\operatorname{Var}(N(t))=\mu+\frac{\mu^2}{\alpha}.
+\mathrm{Var}(N(t))=\mu+\frac{\mu^2}{\alpha}.
 $$
 
 At fixed $\mu$, smaller $\alpha$ means more heterogeneity and more overdispersion. As $\alpha$ grows with $\mu$ fixed, the distribution approaches Poisson.
@@ -69,10 +69,10 @@ At fixed $\mu$, smaller $\alpha$ means more heterogeneity and more overdispersio
 The law of total variance gives
 
 $$
-\operatorname{Var}(N(t))
-=E[\operatorname{Var}(N(t)\mid\Lambda)]
-+\operatorname{Var}(E[N(t)\mid\Lambda])
-=tE[\Lambda]+t^2\operatorname{Var}(\Lambda).
+\mathrm{Var}(N(t))
+=E[\mathrm{Var}(N(t)\mid\Lambda)]
++\mathrm{Var}(E[N(t)\mid\Lambda])
+=tE[\Lambda]+t^2\mathrm{Var}(\Lambda).
 $$
 
 The first term is Poisson variation within a given rate. The second is variation between rates.
@@ -82,8 +82,8 @@ The first term is Poisson variation within a given rate. The second is variation
 For two disjoint windows of lengths $t_1$ and $t_2$ on the same device, let their counts be $Y_1$ and $Y_2$. Conditional on its rate, they are independent. Marginally,
 
 $$
-\operatorname{Cov}(Y_1,Y_2)
-=t_1t_2\operatorname{Var}(\Lambda)>0.
+\mathrm{Cov}(Y_1,Y_2)
+=t_1t_2\mathrm{Var}(\Lambda)>0.
 $$
 
 A high-rate device tends to have high counts in both windows. Drawing a new independent rate in every window would be a different process, even if each individual window had the same negative binomial marginal distribution.
@@ -94,7 +94,7 @@ A gamma distribution can represent physical variation across device rates. It ca
 
 Both lead to a gamma–Poisson mixture, but the predictive question differs: are we selecting a new device from a population, or predicting more observations from the same device after learning from its history?
 
-With a gamma prior and an observed count $k$ over exposure $t$, the posterior is $\operatorname{Gamma}(\alpha+k,\beta+t)$ under the fixed-exposure Poisson likelihood. When analysing a particular device under a population model, its history similarly updates its individual rate distribution.
+With a gamma prior and an observed count $k$ over exposure $t$, the posterior is $\mathrm{Gamma}(\alpha+k,\beta+t)$ under the fixed-exposure Poisson likelihood. When analysing a particular device under a population model, its history similarly updates its individual rate distribution.
 
 ## Check your understanding
 

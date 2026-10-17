@@ -67,7 +67,7 @@ $$
 
 Every device has a constant conditional hazard. Yet the population hazard decreases: high-rate devices tend to experience their first event earlier, leaving a lower-rate group among those still event-free.
 
-Equivalently, the rate distribution among survivors is $\operatorname{Gamma}(\alpha,\beta+t)$, whose mean is $\alpha/(\beta+t)$.
+Equivalently, the rate distribution among survivors is $\mathrm{Gamma}(\alpha,\beta+t)$, whose mean is $\alpha/(\beta+t)$.
 
 **A decreasing population hazard does not establish that individual devices improve with age.**
 

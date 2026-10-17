@@ -21,7 +21,7 @@ For device $i$, write:
 A basic model is
 
 $$
-Y_i\mid\lambda_i,e_i\sim\operatorname{Poisson}(\lambda_i e_i).
+Y_i\mid\lambda_i,e_i\sim\mathrm{Poisson}(\lambda_i e_i).
 $$
 
 The product $\lambda_i e_i$ is dimensionless and is the expected count. A rate of 0.02 faults per hour over 100 hours gives an expected count of 2.

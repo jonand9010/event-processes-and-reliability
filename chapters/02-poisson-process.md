@@ -19,7 +19,7 @@ Here $o(\Delta t)$ denotes a term whose ratio to $\Delta t$ approaches zero as $
 These assumptions imply
 
 $$
-N(t)\sim\operatorname{Poisson}(\lambda t),
+N(t)\sim\mathrm{Poisson}(\lambda t),
 \qquad
 P(N(t)=k)=e^{-\lambda t}\frac{(\lambda t)^k}{k!},
 $$
@@ -27,7 +27,7 @@ $$
 for $k=0,1,2,\ldots$, with
 
 $$
-E[N(t)]=\operatorname{Var}(N(t))=\lambda t.
+E[N(t)]=\mathrm{Var}(N(t))=\lambda t.
 $$
 
 The distribution describes a count in one window. The process additionally describes how counts relate across windows.
