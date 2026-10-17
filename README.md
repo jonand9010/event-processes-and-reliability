@@ -50,4 +50,4 @@ Open `README.md` on GitHub and follow the relative links. Equations use GitHub-s
 
 ## Next contribution
 
-The next planned chapter is **Estimating rates and expressing uncertainty**, covering exposure-based likelihoods, interval estimates, and gammaâPoisson updating. See the roadmap for the sequence after that.
+The next planned chapter is **Estimating rates and expressing uncertainty**, covering exposure-based likelihoods, interval estimates, and gamma–Poisson updating. See the roadmap for the sequence after that.
