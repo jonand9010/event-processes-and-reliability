@@ -64,9 +64,3 @@ Neither summary, by itself, establishes a causal difference or identifies a devi
 - Devices enter observation only after surviving an earlier period.
 
 Defining exposure handles opportunity; it does not automatically solve dependence, missing observation, or selection.
-
-## Check your understanding
-
-A device produces 6 faults over 300 operating hours. What is its observed rate, and what does that estimate not tell you?
-
-**Answer:** $6/300=0.02$ faults per operating hour. This does not establish that its rate is constant, quantify estimation uncertainty, or specify the probability of a terminal failure.
