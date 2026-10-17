@@ -90,9 +90,3 @@ $$
 This omits factors involving only the censoring mechanism. If disappearance from monitoring is associated with unobserved failure risk, this simplification may not be justified.
 
 For example, a device observed event-free for 50 hours contributes $S(50)$. Deleting that record discards evidence and can distort the estimated lifetime distribution.
-
-## Check your understanding
-
-Under $\alpha=2$ and $\beta=100$ hours, compare the population first-event hazard at ages 0 and 100 hours. Has any device's own rate changed?
-
-**Answer:** The hazards are 0.02 and 0.01 per hour. Individual rates have not changed in this model. The distribution of rates among devices still event-free has changed.

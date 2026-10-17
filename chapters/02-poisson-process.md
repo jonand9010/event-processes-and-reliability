@@ -74,9 +74,3 @@ Equal mean and variance is a prediction for repeated counts at the same exposure
 Counts may vary more than a common-rate Poisson model predicts, even when exposure is the same. Possible explanations include different rates across devices, events occurring in clusters, changing operating conditions, or observation errors. Excess variation alone does not identify which explanation is responsible.
 
 The next chapter develops one of these possibilities: each device follows a Poisson process, but its rate can differ from those of other devices. We will derive the resulting count distribution from that assumption.
-
-## Check your understanding
-
-At 0.02 faults per hour, what is the probability of at least one fault during 10 hours?
-
-**Answer:** $1-e^{-0.2}\approx0.1813$. The expected count is 0.2; it is not the same quantity as the probability of at least one event.

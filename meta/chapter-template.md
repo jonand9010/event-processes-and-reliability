@@ -28,10 +28,6 @@ Use small numerical values. Explain what the result means for the original quest
 
 Describe important alternative explanations or limits of interpretation.
 
-## Check your understanding
-
-Include one or two questions and their answers.
-
 ## Connection to the next chapter
 
 Identify the next question that the current model cannot yet answer.

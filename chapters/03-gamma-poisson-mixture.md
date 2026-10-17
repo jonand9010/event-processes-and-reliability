@@ -95,9 +95,3 @@ A gamma distribution can represent physical variation across device rates. It ca
 Both lead to a gamma–Poisson mixture, but the predictive question differs: are we selecting a new device from a population, or predicting more observations from the same device after learning from its history?
 
 With a gamma prior and an observed count $k$ over exposure $t$, the posterior is $\mathrm{Gamma}(\alpha+k,\beta+t)$ under the fixed-exposure Poisson likelihood. When analysing a particular device under a population model, its history similarly updates its individual rate distribution.
-
-## Check your understanding
-
-Take $\alpha=2$, $\beta=100$ hours and $t=50$ hours. Find the mean count, variance, and probability of no faults.
-
-**Answer:** The mean is 1; the variance is 1.5; the zero probability is $(100/150)^2=4/9\approx0.4444$. A common-rate Poisson model with the same mean has zero probability $e^{-1}\approx0.3679$. The mixture produces more zeros as well as a heavier upper tail.
