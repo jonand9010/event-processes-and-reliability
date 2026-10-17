@@ -20,9 +20,9 @@ For device $i$, write:
 
 A basic model is
 
-$$
+```math
 Y_i\mid\lambda_i,e_i\sim\operatorname{Poisson}(\lambda_i e_i).
-$$
+```
 
 The product $\lambda_i e_i$ is dimensionless and is the expected count. A rate of 0.02 faults per hour over 100 hours gives an expected count of 2.
 
@@ -46,10 +46,10 @@ Their individual observed rates are 0.1 and 0.01 faults per hour. Their unweight
 
 The pooled rate is instead
 
-$$
+```math
 \widehat\lambda_{\mathrm{pooled}}=\frac{1+9}{10+900}
 =\frac{10}{910}\approx0.01099.
-$$
+```
 
 These describe different summaries. The first gives each device equal weight. The second gives each observed operating hour equal weight and is the maximum-likelihood estimate under an independent common-rate Poisson model with fixed exposures.
 
