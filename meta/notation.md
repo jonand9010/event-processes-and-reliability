@@ -26,7 +26,7 @@
 
 ## Gamma convention
 
-$\operatorname{Gamma}(\alpha,\beta)$ always uses shape and **rate**. Its mean is $\alpha/\beta$. Libraries using a scale parameter need scale $1/\beta$.
+$\mathrm{Gamma}(\alpha,\beta)$ always uses shape and **rate**. Its mean is $\alpha/\beta$. Libraries using a scale parameter need scale $1/\beta$.
 
 The gamma distribution's rate parameter $\beta$ is distinct from the physical fault rate $\lambda$.
 
