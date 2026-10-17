@@ -34,9 +34,9 @@ The gamma distribution's rate parameter $\beta$ is distinct from the physical fa
 
 For shape $r>0$ and $0<p<1$, use
 
-$$
+```math
 P(Y=k)=\frac{\Gamma(k+r)}{\Gamma(r)k!}p^r(1-p)^k.
-$$
+```
 
 Its mean is $r(1-p)/p$. In the gamma–Poisson mixture, $r=\alpha$ and $p=\beta/(\beta+t)$ for $t>0$. At $t=0$, the count is zero with probability one.
 
