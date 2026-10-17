@@ -18,17 +18,17 @@ Here $o(\Delta t)$ denotes a term whose ratio to $\Delta t$ approaches zero as $
 
 These assumptions imply
 
-$$
+```math
 N(t)\sim\operatorname{Poisson}(\lambda t),
 \qquad
 P(N(t)=k)=e^{-\lambda t}\frac{(\lambda t)^k}{k!},
-$$
+```
 
 for $k=0,1,2,\ldots$, with
 
-$$
+```math
 E[N(t)]=\operatorname{Var}(N(t))=\lambda t.
-$$
+```
 
 The distribution describes a count in one window. The process additionally describes how counts relate across windows.
 
@@ -36,9 +36,9 @@ The distribution describes a count in one window. The process additionally descr
 
 Let $T_1$ be the time until the first event. The first event occurs after $t$ exactly when there are no events by $t$:
 
-$$
+```math
 P(T_1>t)=P(N(t)=0)=e^{-\lambda t}.
-$$
+```
 
 Thus $T_1$ has an exponential distribution with rate $\lambda$, mean $1/\lambda$, and constant hazard $\lambda$.
 
@@ -59,9 +59,9 @@ An expected count of one does not mean an event is certain.
 
 For $s,t\geq0$,
 
-$$
+```math
 P(T_1>s+t\mid T_1>s)=e^{-\lambda t}.
-$$
+```
 
 Surviving without a fault for $s$ hours does not change the remaining waiting-time distribution **when the constant rate is known and the model holds**.
 
