@@ -39,7 +39,7 @@ For a homogeneous Poisson process, counts are Poisson and interarrival times are
 - Define symbols and units when they first appear.
 - Separate a generative model, an inference procedure, and a decision rule.
 - State assumptions and explain what would break them.
-- Use small numerical examples and short exercises with answers.
+- Use small numerical examples with clear interpretations.
 - Treat fault events, first failures, and terminal failures as different data structures.
 
 The initial chapters are drafts with worked mathematics. Planned chapters are listed separately; they are not implied to be complete.
