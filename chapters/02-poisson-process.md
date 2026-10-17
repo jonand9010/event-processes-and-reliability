@@ -71,7 +71,9 @@ If devices have different unknown rates, surviving without a fault can change wh
 
 Equal mean and variance is a prediction for repeated counts at the same exposure under the same rate. Raw counts from unequal exposures need not have equal empirical mean and variance.
 
-Excess variation at comparable exposure can arise from heterogeneous rates, event clustering, changing conditions, or observation errors. A negative binomial fit alone cannot distinguish these explanations.
+Counts may vary more than a common-rate Poisson model predicts, even when exposure is the same. Possible explanations include different rates across devices, events occurring in clusters, changing operating conditions, or observation errors. Excess variation alone does not identify which explanation is responsible.
+
+The next chapter develops one of these possibilities: each device follows a Poisson process, but its rate can differ from those of other devices. We will derive the resulting count distribution from that assumption.
 
 ## Check your understanding
 
