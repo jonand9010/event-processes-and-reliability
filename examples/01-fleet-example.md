@@ -8,15 +8,15 @@ Consider independent devices. Each has a rate drawn once from $\operatorname{Gam
 
 Before observing its history, the predictive count is negative binomial:
 
-$$
+```math
 E[N(50)]=1,\qquad \operatorname{Var}(N(50))=1.5.
-$$
+```
 
 The probability of at least one event is
 
-$$
+```math
 1-\left(\frac{100}{150}\right)^2=\frac59\approx0.5556.
-$$
+```
 
 Using a Poisson distribution at the mean rate 0.02 would instead give $1-e^{-1}\approx0.6321$. Averaging rates before calculating probabilities does not generally preserve the probabilities.
 
@@ -26,11 +26,11 @@ The device has provided information: its rate distribution, conditional on that 
 
 The conditional probability is
 
-$$
+```math
 1-\frac{S(150)}{S(100)}
 =1-\left(\frac{200}{250}\right)^2
 =0.36.
-$$
+```
 
 This is lower than for a new device. The observation changed our information about its rate.
 
@@ -38,16 +38,16 @@ This is lower than for a new device. The observation changed our information abo
 
 Its posterior rate distribution is $\operatorname{Gamma}(6,200)$, with mean 0.03 events per hour. Assuming events do not alter its underlying rate, the expected count in the next 50 hours is
 
-$$
+```math
 50\frac6{200}=1.5.
-$$
+```
 
 The probability of at least one additional event is
 
-$$
+```math
 1-\left(\frac{200}{250}\right)^6
 \approx0.7379.
-$$
+```
 
 This is a recurrent-event question, not the probability of its first event: its first event already occurred.
 
