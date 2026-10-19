@@ -17,7 +17,7 @@ Read the chapters in order:
 3. [Gamma-distributed rates and negative binomial counts](chapters/03-gamma-poisson-mixture.md)
 4. [Survival, hazard, and what observation hides](chapters/04-survival-and-hazard.md)
 
-Then work through [one fleet, three different questions](examples/01-fleet-example.md).
+Then work through [one fleet, three different questions](examples/01-fleet-example.md). For a deeper derivation of the link between negative binomial counts and Lomax survival, read [Gamma mixtures: counts, first events, and survivor selection](examples/02-gamma-lomax-connection.md), including its [Python simulation](examples/02-gamma-lomax-simulation.py).
 
 Use the [notation guide](meta/notation.md) when a symbol is unfamiliar. See the [roadmap](meta/roadmap.md) for planned topics and the [chapter template](meta/chapter-template.md) when adding material.
 
