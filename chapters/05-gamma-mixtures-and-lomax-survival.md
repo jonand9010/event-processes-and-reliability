@@ -1,6 +1,6 @@
-# Gamma mixtures: counts, first events, and survivor selection
+# 5. Gamma mixtures: counts, first events, and survivor selection
 
-[Previous chapter](../chapters/03-gamma-poisson-mixture.md) · [Survival chapter](../chapters/04-survival-and-hazard.md) · [Contents](../README.md)
+[Previous](04-survival-and-hazard.md) · [Contents](../README.md) · [Simulation](../examples/02-gamma-lomax-simulation.py)
 
 ## One model, two observable quantities
 
@@ -37,7 +37,7 @@ P(N(t)=k)=
 \left(\frac{t}{\beta+t}\right)^k.
 $$
 
-This is the negative binomial distribution, as derived in [Chapter 3](../chapters/03-gamma-poisson-mixture.md).
+This is the negative binomial distribution, as derived in [Chapter 3](03-gamma-poisson-mixture.md).
 
 ## Time to first event: the Lomax distribution
 

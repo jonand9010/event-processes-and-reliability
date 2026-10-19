@@ -1,6 +1,6 @@
 # 4. Survival, hazard, and what observation hides
 
-[Previous](03-gamma-poisson-mixture.md) · [Contents](../README.md) · [Worked example](../examples/01-fleet-example.md)
+[Previous](03-gamma-poisson-mixture.md) · [Contents](../README.md) · [Next](05-gamma-mixtures-and-lomax-survival.md) · [Worked example](../examples/01-fleet-example.md)
 
 ## The question
 
